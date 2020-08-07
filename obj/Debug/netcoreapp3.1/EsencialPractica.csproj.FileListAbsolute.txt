@@ -1,0 +1,13 @@
+C:\Users\noemi\source\repos\EsencialPractica\bin\Debug\netcoreapp3.1\EsencialPractica.exe
+C:\Users\noemi\source\repos\EsencialPractica\bin\Debug\netcoreapp3.1\EsencialPractica.deps.json
+C:\Users\noemi\source\repos\EsencialPractica\bin\Debug\netcoreapp3.1\EsencialPractica.runtimeconfig.json
+C:\Users\noemi\source\repos\EsencialPractica\bin\Debug\netcoreapp3.1\EsencialPractica.runtimeconfig.dev.json
+C:\Users\noemi\source\repos\EsencialPractica\bin\Debug\netcoreapp3.1\EsencialPractica.dll
+C:\Users\noemi\source\repos\EsencialPractica\bin\Debug\netcoreapp3.1\EsencialPractica.pdb
+C:\Users\noemi\source\repos\EsencialPractica\obj\Debug\netcoreapp3.1\EsencialPractica.csprojAssemblyReference.cache
+C:\Users\noemi\source\repos\EsencialPractica\obj\Debug\netcoreapp3.1\EsencialPractica.AssemblyInfoInputs.cache
+C:\Users\noemi\source\repos\EsencialPractica\obj\Debug\netcoreapp3.1\EsencialPractica.AssemblyInfo.cs
+C:\Users\noemi\source\repos\EsencialPractica\obj\Debug\netcoreapp3.1\EsencialPractica.csproj.CoreCompileInputs.cache
+C:\Users\noemi\source\repos\EsencialPractica\obj\Debug\netcoreapp3.1\EsencialPractica.dll
+C:\Users\noemi\source\repos\EsencialPractica\obj\Debug\netcoreapp3.1\EsencialPractica.pdb
+C:\Users\noemi\source\repos\EsencialPractica\obj\Debug\netcoreapp3.1\EsencialPractica.genruntimeconfig.cache
