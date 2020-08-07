@@ -61,8 +61,51 @@ namespace EsencialPractica
 
             /*** Tipos anonimos ***/
             #region anonimos
+            var location = new { Country = "Austria", City = "Graz" };
+            Console.WriteLine("cliente - Pais: {0}, Ciudad: {1}", location.Country, location.City); //Lectura permitida
+            //client.Name = "Daniela"; //Solo lectura, no puede ser modificado.
             #endregion
 
+            #region anidacion
+            var client = new { Name = "Noemi", 
+                                Surname = "Leon",
+                                Status = false,
+                                Location = location};
+            Console.WriteLine("cliente - Nombre: {0}, Pais: {1}", client.Name, client.Location.Country);
+            #endregion
+
+            #region arreglos anonimos
+            var locationb = new { Country = "Mexico", City = "CDMX" };
+            var clients = new[]
+            {
+                new { Name = "Clara", Surname = "Rdz", Status = true, Location = location },
+                new { Name = "Raul", Surname = "Noel", Status = false, Location = locationb },
+                client
+            };
+            int i = 0;
+            foreach(var cl in clients)
+            {
+                Console.WriteLine("cliente {0} - Nombre: {1}, Pais: {2}, Cd: {3}", 
+                    i, cl.Name, cl.Location.Country, cl.Location.City);
+                i++;
+            }
+            #endregion
+
+            /*** Tipo tupla ***/
+            #region no type
+            var provider = (Name: "Alberto", Surname: "Perez");
+            Console.WriteLine($"Provider: {provider.Name}, {provider.Surname}");
+            #endregion
+
+            #region tipos especificados
+            (string Name, string Surname, int Age) providerB = (Name: "Alberto", Surname: "Perez", Age: 40);
+            Console.WriteLine($"ProviderB: {providerB.Name}, {providerB.Age}");
+            #endregion
+
+            #region modificar campo de tupla
+            providerB.Age = 25;
+            Console.WriteLine($"ProviderB Age: {providerB.Age}");
+            #endregion
         }
 
         //Para ref
